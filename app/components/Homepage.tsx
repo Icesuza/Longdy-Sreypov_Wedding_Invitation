@@ -12,7 +12,7 @@ export default function Home() {
   const backgroundOpacity = useTransform(scrollYProgress, [0, 0.15], [1, 0.3]);
 
   return (
-    <main className="relative bg-cream min-h-[300vh] max-w-[600px] aspect-[9/19] mx-auto">
+    <main className="relative bg-cream min-h-[300vh] max-w-[600px] mx-auto overflow-x-hidden">
       <MusicPlayer/>
       {/* SECTION 1: The Sticky Hero Area */}
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden z-20">
