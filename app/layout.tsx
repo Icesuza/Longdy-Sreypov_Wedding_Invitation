@@ -21,32 +21,32 @@ const chenla = Chenla({
 
 export const metadata: Metadata = {
   title: "Wedding Invitation | Longdy & Sreypov",
-  description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ", // "Please join our wedding"
+  description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ",
   
-  // 1. Open Graph (Facebook, Telegram, Messenger)
   openGraph: {
     title: "Wedding Invitation | Longdy & Sreypov",
     description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ",
-    url: "https://longdy-sreypov-wedding-invitation.vercel.app", // Change to your real URL
+    url: "https://longdy-sreypov-wedding-invitation.vercel.app",
     siteName: "Longdy & Sreypov Wedding",
     images: [
       {
-        url: "https://longdy-sreypov-wedding-invitation.vercel.app.jpg", // Must be a FULL URL
+        // FIX: Added the full path to your image
+        url: "https://longdy-sreypov-wedding-invitation.vercel.app/images/DSC_9389.JPG", 
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Cover",
       },
     ],
-    locale: "km_KH", // Sets language to Khmer
+    locale: "km_KH",
     type: "website",
   },
 
-  // 2. Twitter Card
   twitter: {
     card: "summary_large_image",
     title: "Wedding Invitation | Longdy & Sreypov",
     description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ",
-    images: ["https://longdy-sreypov-wedding-invitation.vercel.app.jpg"],
+    // FIX: Must also be a full URL for Twitter/X
+    images: ["https://longdy-sreypov-wedding-invitation.vercel.app/images/DSC_9389.JPG"],
   },
 };
 
