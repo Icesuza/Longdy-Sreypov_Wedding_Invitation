@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Chenla, Cinzel_Decorative, Cormorant_Garamond, Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import MusicPlayer from "./components/MusicPlayer";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -26,11 +27,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wedding Invitation | Longdy & Sreypov",
     description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ",
-    url: "longdy-sreypov-wedding-invitation.vercel.app.app", // Change to your real URL
+    url: "https://longdy-sreypov-wedding-invitation.vercel.app", // Change to your real URL
     siteName: "Longdy & Sreypov Wedding",
     images: [
       {
-        url: "longdy-sreypov-wedding-invitation.vercel.app.jpg", // Must be a FULL URL
+        url: "https://longdy-sreypov-wedding-invitation.vercel.app.jpg", // Must be a FULL URL
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Cover",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Wedding Invitation | Longdy & Sreypov",
     description: "សូមអញ្ជើញចូលរួមកម្មវិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ",
-    images: ["longdy-sreypov-wedding-invitation.vercel.app.jpg"],
+    images: ["https://longdy-sreypov-wedding-invitation.vercel.app.jpg"],
   },
 };
 
@@ -60,7 +61,11 @@ export default function RootLayout({
       <body
         className={`${serifFont.variable} ${chenla.variable} antialiased font-serif`}
       >
-        {children}
+        <MusicPlayer />
+
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );

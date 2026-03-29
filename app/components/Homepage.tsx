@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="relative bg-white min-h-[300vh] max-w-150 mx-auto overflow-x-hidden">
-      <MusicPlayer/>
+      
       {/* SECTION 1: The Sticky Hero Area */}
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden z-20">
         
