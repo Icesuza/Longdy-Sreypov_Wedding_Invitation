@@ -11,7 +11,7 @@ export default function LocationGuide() {
             height={70}
             className="mx-auto rotate-180"
           />
-          <p className="text-2xl font-bold leading-relaxed">ទីតាំងកម្មវិធី</p>
+          <p className="text-lg lg:text-2xl font-bold leading-relaxed">ទីតាំងកម្មវិធី</p>
           <Image
             src="/images/icon4.png"
             alt="Icon Image"
@@ -20,7 +20,7 @@ export default function LocationGuide() {
             className="mx-auto"
           />
         </div>
-        <p className="text-lg mt-3">
+        <p className="text-base lg:text-lg mt-3">
           ស្ថិតនៅគេហដ្ឋានខាងកូនស្រី​ ភូមទំពូងផ្ទះវីងវេរលុយ ឃុំល្វេ ស្រុកកោះសូទិន
           ខេត្តកំពង់ចាម
         </p>

@@ -58,7 +58,7 @@ export default function Frontpage({
           <motion.span
             key={index}
             variants={childVariants}
-            className="text-amber-50 text-6xl font-serif"
+            className="text-amber-50 text-4xl lg:text-6xl font-serif"
           >
             {char}
           </motion.span>
@@ -75,7 +75,7 @@ export default function Frontpage({
           <motion.span
             key={index}
             variants={childVariants}
-            className="text-amber-50 text-6xl font-serif"
+            className="text-amber-50 text-4xl lg:text-6xl font-serif"
           >
             {char}
           </motion.span>
@@ -86,7 +86,7 @@ export default function Frontpage({
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1.8, duration: 1 }}
-        className="text-amber-50 text-[30px] font-serif border-y border-amber-50/30 py-2 my-4 whitespace-nowrap px-4"
+        className="text-amber-50 text-[26px] lg:text-[30px] font-serif border-y border-amber-50/30 py-2 my-4 whitespace-nowrap px-4"
       >
         {names}
       </motion.p>
@@ -95,7 +95,7 @@ export default function Frontpage({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.2, duration: 1 }}
-        className="text-amber-50 text-2xl font-light tracking-widest"
+        className="text-amber-50 text-xl lg:text-2xl font-light tracking-widest"
       >
         {date}
       </motion.p>

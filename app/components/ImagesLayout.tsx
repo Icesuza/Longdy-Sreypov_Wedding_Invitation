@@ -34,7 +34,7 @@ export default function ImageCard() {
           height={70}
           className="mx-auto rotate-180"
         />
-        <p className="font-chenla font-bold text-gold-dark text-2xl text-center">
+        <p className="font-chenla font-bold text-gold-dark text-lg lg:text-2xl text-center">
           រូបភាព
         </p>
         <Image

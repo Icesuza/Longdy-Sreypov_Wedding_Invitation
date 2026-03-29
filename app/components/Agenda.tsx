@@ -11,7 +11,7 @@ export default function Agenda() {
             height={70}
             className="mx-auto rotate-180"
           />
-          <p className=" text-2xl font-bold text-center leading-relaxed">
+          <p className="text-lg lg:text-2xl font-bold text-center leading-relaxed">
             កម្មវិធីសិរីមង្គលអាពាហ៍ពិពាហ៍
           </p>
           <Image
@@ -22,11 +22,11 @@ export default function Agenda() {
             className="mx-auto"
           />
         </div>
-        <p className="mt-3 text-lg">
+        <p className="mt-3 text-base lg:text-lg">
           <span className="font-bold">ថ្ងៃទី១៖​ </span>ថ្ងៃអង្គារ ខែមេសា​
           ឆ្នាំ២០២៦
         </p>
-        <div className="justify-self-start py-6">
+        <div className="justify-self-start py-6 text-[14px] lg:text-base">
           <p className="">ម៉ោង​ ២ៈ០០ រសៀល ៖ ពិធីក្រុងពាលី</p>
           <p className="mt-4">
             ម៉ោង​ ៣ៈ០០ រសៀល ៖ ពិធីសូត្រមន្តចម្រើនព្រះបរិត្ត
@@ -43,11 +43,11 @@ export default function Agenda() {
           height={50}
           className="mx-auto my-8"
         />
-        <p className="mt-3 text-lg">
+        <p className="mt-3 text-base lg:text-lg">
           <span className="font-bold">ថ្ងៃទី២៖​ </span>ថ្ងៃពុធ ខែមេសា​ ឆ្នាំ២០២៦
         </p>
-        <div className="justify-self-start py-6">
-          <p className="">
+        <div className="justify-self-start py-6 text-[14px] lg:text-base">
+          <p>
             ម៉ោង​ ៦ៈ០០ ព្រឹក ៖ ជួបជុំភ្ញៀវកត្តិយសរៀបចំពិធីហែជំនូន
           </p>
           <p className="mt-4">

@@ -2,7 +2,7 @@ export default function KhmerScript() {
   return (
     <>
       <div className="mt-5">
-        <p className="font-chenla text-2xl text-gold-dark text-center font-bold">
+        <p className="font-chenla text-xl lg:text-2xl text-gold-dark text-center font-bold">
           សិរីមង្គលអាពាហ៍ពិពាហ៍
         </p>
       </div>
@@ -22,10 +22,10 @@ export default function KhmerScript() {
           លោក​​ស្រី​ <span className="font-bold">អ៊ូ ធីតា</span>
         </span>
       </div>
-      <p className="text-xl font-chenla text-gold-dark mt-8 text-center font-semibold">
+      <p className="text-md lg:text-xl font-chenla text-gold-dark mt-8 text-center font-semibold">
         យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញ
       </p>
-      <p className="text-lg font-chenla text-gold-dark mt-4 text-center leading-9">
+      <p className="lg:text-lg font-chenla text-gold-dark mt-4 text-center leading-9">
         សម្ដេច​ ទ្រង់ ឯកឧត្ដម លោកជំទាវ អ្នកឧកញ៉ា លោកឧកញ៉ា​ លោក លោកស្រី អ្នកនាង​
         កញ្ញា អញ្ជើញចូលរួមជាភ្ញៀវកិត្តិយស​ ដើម្បីប្រសិទ្ធពរជ័យ
         សិរិសួស្ដីជ័យមង្គលក្នុងពិធីសិរីមង្គលអាពាហ៍ពិពាហ៍កូនប្រុស
@@ -33,26 +33,26 @@ export default function KhmerScript() {
       </p>
       <div className="font-chenla text-gold-dark grid grid-cols-3 justify-between mt-6">
         <div className="flex flex-col items-center gap-4">
-          <span className="justify-self-start">កូនប្រុសនាម</span>
-          <span className="justify-self-start text-xl font-bold">
+          <span className="justify-self-start text-[14px] lg:text-base">កូនប្រុសនាម</span>
+          <span className="justify-self-start text-base lg:text-xl font-bold">
             ផុន​ ឡង់ឌី
           </span>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <span className="justify-self-start">.</span>
-          <span className="justify-self-center">ជាគូនឹង</span>
+          <span className="justify-self-start text-[14px] lg:text-base">.</span>
+          <span className="justify-self-center text-[14px] lg:text-base">ជាគូនឹង</span>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <span className="justify-self-start">កូនស្រីនាម</span>
-          <span className="justify-self-start text-xl font-bold">
+          <span className="justify-self-start text-[14px] lg:text-base">កូនស្រីនាម</span>
+          <span className="justify-self-start text-base lg:text-xl font-bold">
             ឡាង ស្រីពៅ
           </span>
         </div>
       </div>
-      <p className="text-lg font-chenla text-gold-dark mt-8 text-center leading-9">
+      <p className="lg:text-lg font-chenla text-gold-dark mt-8 text-center leading-9">
         នៅថ្ងៃពុធ ទី​ ២២​ ខែ មេសា ឆ្នាំ ២០២៦ ត្រូវនឹងថ្ងៃ ៦កើត ខែពិសាខ ឆ្នាំមមី
-        អដ្ឋស័ក ពុទ្ធសករាជ ២៥៦៩ ពេលលាម៉ោង ៤​ រសៀល ស្ថិតនៅគេហដ្ឋានខាងកូនស្រី
-        ភូមទំពូងផ្ទះវីងវេរលុយ ឃុំល្វេ ស្រុកកោះសូទិន ខេត្តកំពង់ចាម។ សូមអរគុណ
+        អដ្ឋស័ក ពុទ្ធសករាជ ២៥៦៩ ពេលាម៉ោង ៤​ រសៀល ស្ថិតនៅគេហដ្ឋានខាងកូនស្រី
+        ភូមទំពូងផ្ទះវីងវេលុយ ឃុំល្វេ ស្រុកកោះសូទិន ខេត្តកំពង់ចាម។ សូមអគុណ
       </p>
     </>
   );
