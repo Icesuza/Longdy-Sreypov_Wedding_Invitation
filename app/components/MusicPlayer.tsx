@@ -41,7 +41,7 @@ export default function MusicPlayer() {
             
             <Button 
               onClick={handleOpenInvitation}
-              className="bg-gold-dark hover:bg-gold text-white px-10 py-8 rounded-full shadow-2xl flex flex-col gap-2 transition-transform active:scale-95"
+              className="bg-gold-dark hover:bg-gold text-white px-10 py-8 rounded-full shadow-2xl flex flex-col gap-2 transition-transform active:scale-95 mx-auto"
             >
               <MailOpen className="h-6 w-6" />
               <span className="font-chenla">បើកសំបុត្រអញ្ជើញ</span>
