@@ -28,9 +28,9 @@ export default function EnglistScript() {
         wedding of our beloved children.
       </p>
       <div className="text-xl lg:text-2xl text-gold-dark grid grid-cols-3 place-items-center gap-3 mt-6 mb-4">
-        <span className="font-bold">Phon Longdy</span>
+        <span className="font-bold text-center">Phon Longdy</span>
         <span className="font-bold justify-self-center">&</span>
-        <span className="font-bold">Lang Sreypov</span>
+        <span className="font-bold text-center">Lang Sreypov</span>
       </div>
       <p className="text-lg lg:text-xl text-gold-dark mt-8 text-center leading-9">
         which will be held from <span className="font-bold">4pm</span> on

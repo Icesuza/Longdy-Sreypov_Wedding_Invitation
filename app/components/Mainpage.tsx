@@ -71,7 +71,7 @@ export default function Mainpage() {
           alt="Icon Image"
           width={100}
           height={70}
-          className="mx-auto mt-8"
+          className="mx-auto my-8"
         />
 
         <motion.section 
