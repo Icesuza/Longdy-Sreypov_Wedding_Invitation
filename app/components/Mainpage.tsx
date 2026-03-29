@@ -23,7 +23,7 @@ export default function Mainpage() {
 
   return (
     <>
-      <div className="relative bg-cream w-full rounded-2xl border-t-2 border-[#d4af37]/30 p-10 shadow-2xl overflow-hidden">
+      <div className="relative bg-cream w-full rounded-t-2xl border-t-2 border-[#d4af37]/30 p-10 shadow-2xl overflow-hidden">
         <div className="absolute top-[-25px] right-2">
           <Image
             src="/images/frame.png"

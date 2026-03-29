@@ -27,9 +27,9 @@ export default function EnglistScript() {
         Cordially invite and request the pleasure of your presence at the
         wedding of our beloved children.
       </p>
-      <div className="text-gold-dark flex items-center justify-center gap-3 mt-6 mb-4">
+      <div className="text-gold-dark grid grid-cols-3 place-items-center gap-3 mt-6 mb-4">
         <span className="text-2xl font-bold">Phon Longdy</span>
-        <span className="text-2xl font-bold">&</span>
+        <span className="text-2xl font-bold justify-self-center">&</span>
         <span className="text-2xl font-bold">Lang Sreypov</span>
       </div>
       <p className="text-xl text-gold-dark mt-8 text-center leading-9">
